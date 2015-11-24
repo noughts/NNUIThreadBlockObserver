@@ -7,12 +7,16 @@
 //
 
 #import "NNAppDelegate.h"
+#import <NNUIThreadBlockObserver.h>
 
 @implementation NNAppDelegate
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions
 {
     // Override point for customization after application launch.
+    
+    [[NNUIThreadBlockObserver sharedInstance] start];
+    
     return YES;
 }
 
