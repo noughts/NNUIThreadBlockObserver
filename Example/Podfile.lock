@@ -1,0 +1,14 @@
+PODS:
+  - NNUIThreadBlockObserver (0.1.0)
+
+DEPENDENCIES:
+  - NNUIThreadBlockObserver (from `../`)
+
+EXTERNAL SOURCES:
+  NNUIThreadBlockObserver:
+    :path: ../
+
+SPEC CHECKSUMS:
+  NNUIThreadBlockObserver: 000f4ef0d1683dd3b3edcc28abb14cbd49ef20f5
+
+COCOAPODS: 0.39.0
