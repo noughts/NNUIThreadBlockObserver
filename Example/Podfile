@@ -1,0 +1,12 @@
+source 'https://github.com/CocoaPods/Specs.git'
+use_frameworks!
+
+target 'NNUIThreadBlockObserver_Example', :exclusive => true do
+  pod "NNUIThreadBlockObserver", :path => "../"
+end
+
+target 'NNUIThreadBlockObserver_Tests', :exclusive => true do
+  pod "NNUIThreadBlockObserver", :path => "../"
+
+  
+end
